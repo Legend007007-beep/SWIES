@@ -1,0 +1,46 @@
+/*///////////////////
+// RICE WEBSITE CSS
+// THE NET NINJA
+///////////////////*/
+
+
+body{
+    font-family: arial;
+    margin: 0;
+    background: #eee;
+}
+
+#wrapper{
+    width: 980px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+#main-navigation{
+    background: #000;
+    padding: 10px;
+}
+
+#main-navigation ul{
+    text-align: right;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#main-navigation li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#main-navigation a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px;
+}
+
+#main-navigation a.current{
+    background: #8f746c;
+    border-radius: 4px;
+}
